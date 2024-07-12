@@ -5,7 +5,7 @@
 
 使用方法：
 
-安装Avy，Ace-pinyin
+安装Avy，ace-pinyin后安装avy-huma
 ```lisp
 (quelpa '(avy-huma :repo "Dasein1998/avy-huma" :fetcher github)) ;;使用qulepa安装avy-huma
 ```
