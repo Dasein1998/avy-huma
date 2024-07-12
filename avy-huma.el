@@ -1,3 +1,23 @@
+;;; avy-huma.el --- huma for avy and ace-pinyin               -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2024  Dasein1998
+
+;; Author: Dasein1998
+;; Keywords: 
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 (use-package pinyinlib
   :config
   (defconst pinyinlib--traditional-char-table
@@ -64,4 +84,4 @@ Thanks to BYVoid.")
     "ASCII char to simplifed Chinese characters.")
   )
 
-(provide 'init-huma-pinyinlib)
+(provide 'avy-huma)
