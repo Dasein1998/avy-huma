@@ -6,10 +6,13 @@
 使用方法：
 
 安装Avy，Ace-pinyin
+
+```lisp
 (use-package avy-huma
 :ensure t
 :quelpa (avy-huma :repo "Dasein1998/avy-huma" :fetcher github)
 )
+```
 
 参考：
 https://emacs-china.org/t/ace-pinyin/15926
